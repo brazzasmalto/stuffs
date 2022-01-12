@@ -1,5 +1,5 @@
 module "postgresql-db" {
-  source  = /az-for-postgresql
+  source  = "./modules/postgresql/examples/PostgreSQL_Server/"
   version = "1.1.0"
 
   # By default, this module will create a resource group
